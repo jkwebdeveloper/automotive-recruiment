@@ -25,7 +25,8 @@ const Footer = () => {
       pathname.includes("current-vacancies") ||
       pathname.includes("job-detail") ||
       pathname.includes("my-account") ||
-      pathname.includes("services")
+      pathname.includes("services") ||
+      pathname.includes("/applying-next-page")
     )
       return true;
   }
@@ -38,7 +39,7 @@ const Footer = () => {
       {/* <div className="container"> */}
       <div className="grid md:grid-cols-2 lg:gap-0 gap-10  lg:grid-cols-5 lg:px-10">
         <img
-          src={require("../assets/footer_logo.png")}
+          src={require("../assets/logo_Automotive.png")}
           alt=""
           className="lg:w-3/5 w-32"
         />

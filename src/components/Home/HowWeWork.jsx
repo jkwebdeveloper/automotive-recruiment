@@ -1,15 +1,15 @@
 import React from "react";
-import Logocolor from "../../assets/Logo-color.svg";
+import Logocolor from "../../assets/logo_Automotive.png";
 import { Link } from "react-router-dom";
 
 const HowWeWork = () => {
   return (
     <div className="bg-[#F4FBFF] grid grid-cols-1 lg:grid-cols-2 lg:py-20 py-8 justify-center gap-7 xl:gap-0  lg:px-20 px-8 ">
-      <div className="flex justify-center ">
+      <div className="flex justify-center items-center">
         <img
           src={Logocolor}
           alt=""
-          className="text-center lg:w-[342px]  lg:h-[455px]"
+          className="text-center lg:w-[342px]  lg:h-[180px]"
         />
       </div>
       <div className="space-y-5">

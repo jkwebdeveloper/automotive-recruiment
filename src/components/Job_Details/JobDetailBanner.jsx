@@ -21,7 +21,7 @@ const JobDetailBanner = () => {
 
   const handleOpenModal = () => {
     if (user === null) {
-      return navigate("/sign-in");
+      return navigate("/apply-now");
     }
     setOpenModal(true);
   };
@@ -79,7 +79,7 @@ const JobDetailBanner = () => {
                 className="bg-[#004D7F] flex justify-center items-center gap-3 text-white font-medium rounded-lg active:scale-90 transition text-sm py-5 md:py-1 px-2 lg:px-4"
                 onClick={() => handleOpenModal()}
               >
-                Apply Job Now
+                Apply Now
                 <FaArrowRightLong />
               </button>
             </div>

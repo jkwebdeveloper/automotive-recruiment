@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/Logo.svg";
-import LogoColor from "../assets/Logo-color.svg";
+import Logo from "../assets/logo_Automotive.png";
+import LogoColor from "../assets/logo_Automotive.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { RiMenu3Line } from "react-icons/ri";
 
